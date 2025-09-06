@@ -1,0 +1,43 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Machine learning model files
+models/
+
+# Temporary upload files
+temp_uploads/
+
+# YOLO training/inference outputs
+runs/
+
+# Python environment and package files
+*.egg-info/
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
