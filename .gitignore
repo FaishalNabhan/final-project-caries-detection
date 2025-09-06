@@ -1,0 +1,19 @@
+# Root-level ignores for project-wide files
+node_modules/
+dist/
+*.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.DS_Store
+Thumbs.db
+
+# Ignore frontend-specific build outputs (in case they're generated in root)
+frontend/dist/
+frontend/node_modules/
+
+# Allow frontend and backend .gitignore to handle their own subdirectories
+!frontend/.gitignore
+!backend/.gitignore
